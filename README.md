@@ -7,3 +7,5 @@ Overlay Trader is a lightweight and convenient application that displays key inf
 • Full customization: Change font size, colors and show only the information that is important to you (balance, PnL in % or $).
 • Work in tray: Minimize the program to the system tray and control it with hotkeys (F12 to show/hide).
 • Security: All settings and keys are stored locally on your computer.
+https://t.me/OverlayTrader
+overlaytrader@gmail.com
