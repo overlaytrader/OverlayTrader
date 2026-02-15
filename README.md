@@ -1,28 +1,91 @@
-🇷🇺 Русская версия
-Overlay Trader
+## 🇷🇺 Русская версия
 
-Overlay Trader — десктопный overlay-терминал для фьючерсной торговли через API Binance и Bybit.
+# Overlay Trader
 
-Отображает баланс и позиции поверх всех окон Windows.
+**Overlay Trader** — lightweight overlay-терминал для активных трейдеров, которым необходим постоянный контроль позиций без переключения между окнами.
 
-Возможности
+Приложение подключается к:
 
-Прозрачный always-on-top overlay
+* Binance
+* Bybit
 
-Баланс и PnL в реальном времени
+через API и отображает ключевые параметры фьючерсной торговли в режиме реального времени.
 
-Установка плеча
+---
 
-Клик по позиции в окне «Текущие позиции» открывает её график
+## 📊 Основные возможности
 
-F12 — показать / скрыть
+Отображение:
 
-Автозапуск и трей
+* Общего баланса **USDT**
+* Открытых позиций
+* Размера позиции
+* **Unrealized PnL** (USD и %)
+* Направления позиции (**Long / Short**)
 
-Шифрование API-ключей через Windows DPAPI
+---
 
-Требования
+## ⚙ Дополнительный функционал
 
-Windows 10/11
+* Быстрое размещение ордеров
+* Автоматическое округление `qty` и цены согласно требованиям биржи
+* Проверка `minQty` и `minNotional`
+* Автоматическое фоновое обновление данных
+* Настраиваемые цвета и шрифты overlay-интерфейса
 
-API-ключ с доступом к фьючерсам
+---
+
+## 🔐 Безопасность
+
+* API-ключи шифруются через **Windows DPAPI**
+* Все данные хранятся локально
+* Передача данных третьим лицам отсутствует
+
+---
+
+---
+
+## 🇺🇸 English Version
+
+# Overlay Trader
+
+**Overlay Trader** is a lightweight overlay trading terminal designed for active futures traders who require constant position monitoring without switching between windows.
+
+The application connects to:
+
+* Binance
+* Bybit
+
+via API and displays essential futures trading metrics in real time.
+
+---
+
+## 📊 Core Features
+
+Displays:
+
+* Total **USDT** balance
+* Open positions
+* Position size
+* **Unrealized PnL** (USD and %)
+* Position direction (**Long / Short**)
+
+---
+
+## ⚙ Additional Functionality
+
+* Fast order placement
+* Automatic rounding based on exchange precision rules
+* `minQty` / `minNotional` validation
+* Background data refresh
+* Fully customizable overlay appearance (colors and fonts)
+
+---
+
+## 🔐 Security
+
+* API keys are encrypted using **Windows DPAPI**
+* All data is stored locally
+* No third-party data transmission
+
+---
